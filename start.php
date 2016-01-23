@@ -76,7 +76,7 @@ function friend_collection_message_router($hook, $type, $return, $params) {
     
     echo elgg_view_page($title, $layout);
     
-    return true;
+    return false;
 }
 
 
